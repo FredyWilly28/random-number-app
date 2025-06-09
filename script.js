@@ -1,4 +1,4 @@
-console.log("Hey")
+console.log("Hello world")
 
 const RandomNumberEl = document.querySelector("#random-number")
 const resultat =  document.querySelector("#result")
