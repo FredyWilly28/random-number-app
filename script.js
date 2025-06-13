@@ -19,10 +19,7 @@ RandomNumberEl.addEventListener('click',()=>{
     resultat.textContent = "";
     resultat.removeAttribute("style");
   }, 9000); // 3000 millisecondes = 3 secondes
-
-  
 })
-
 
 function getRandomNumber(min ,max){
     return Math.random()  * (max-min)+min;

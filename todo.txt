@@ -1,3 +1,0 @@
-*Definir la structure html
-*Styliser a l'aide du css
-*Dynamiser avec le javascript
