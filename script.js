@@ -2,6 +2,8 @@ console.log("Hello world")
 
 const RandomNumberEl = document.querySelector("#random-number")
 const resultat =  document.querySelector("#result")
+const min = document.querySelector("#min")
+const max =document.querySelector("max")
 RandomNumberEl.addEventListener('click',()=>{
    resultat.style.backgroundColor = "blue"
    resultat.style.color = "white"
@@ -12,7 +14,7 @@ RandomNumberEl.addEventListener('click',()=>{
    resultat.style.marginBottom = "0"
    resultat.style.marginleft = "auto"
    resultat.style.marginright = "auto"
-   resultat.textContent=Math.floor(getRandomNumber(1,100))
+   resultat.textContent=Math.floor(getRandomNumber(Number(min.value) , Number(max.value)))
 
    // Faire disparaître après 3 secondes (3000 ms)
   setTimeout(() => {
