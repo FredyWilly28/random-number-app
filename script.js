@@ -3,7 +3,7 @@ console.log("Hello world")
 const RandomNumberEl = document.querySelector("#random-number")
 const resultat =  document.querySelector("#result")
 const min = document.querySelector("#min")
-const max =document.querySelector("max")
+const max =document.querySelector("#max")
 RandomNumberEl.addEventListener('click',()=>{
    resultat.style.backgroundColor = "blue"
    resultat.style.color = "white"
