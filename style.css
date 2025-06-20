@@ -36,12 +36,7 @@ button{
 
 button:hover{
     transform: scale(1.02);
-    background-color:#24D26D ;
+    background-color:#24D26D;
 }
 
-#result{
-
-    margin: 0 auto;
-    border-radius: 50%;
-}
 
